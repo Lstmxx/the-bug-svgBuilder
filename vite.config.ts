@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { svgBuilder } from './src/svg/svgBuilder'
+import { svgBuilder } from './config/svgBuilder'
 
 export default defineConfig({
   base: './',
